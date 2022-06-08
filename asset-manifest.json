@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Frontend_Mentor--Pod_request_access_landing_page/static/css/main.09f2d3c6.css",
+    "main.js": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/main.5e5ea2e9.js",
+    "static/js/787.be73f74f.chunk.js": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/787.be73f74f.chunk.js",
+    "static/media/image-host.jpg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/image-host.1be1435679e9d16319ad.jpg",
+    "static/media/google-podcasts.svg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/google-podcasts.e91a57f8f2ae7555677a6fc24a2272c7.svg",
+    "static/media/apple-podcast.svg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/apple-podcast.d1854182034693ff7c690be3f5cee4ed.svg",
+    "static/media/pocket-casts.svg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/pocket-casts.8beb87ad75e676103606fd1864e1a371.svg",
+    "static/media/spotify.svg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/spotify.6f8222bb8bd93ed2a74bec685130dccc.svg",
+    "static/media/logo.svg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/logo.f47677a643c79f406a3c9655e21c58b6.svg",
+    "index.html": "/Frontend_Mentor--Pod_request_access_landing_page/index.html",
+    "static/media/bg-pattern-dots.svg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/bg-pattern-dots.a2597e7c189c706f735b91fcfeacc326.svg",
+    "main.09f2d3c6.css.map": "/Frontend_Mentor--Pod_request_access_landing_page/static/css/main.09f2d3c6.css.map",
+    "main.5e5ea2e9.js.map": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/main.5e5ea2e9.js.map",
+    "787.be73f74f.chunk.js.map": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/787.be73f74f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09f2d3c6.css",
+    "static/js/main.5e5ea2e9.js"
+  ]
+}
