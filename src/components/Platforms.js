@@ -8,6 +8,8 @@ import fluid from './services/fluid';
 const PLatforms = styled.div`
   order: 3;
   margin-bottom: 48px;
+  display: flex;
+  align-items: center;
 
   @media (min-width: 768px) {
     margin-bottom: 0;
@@ -21,7 +23,7 @@ const Icon = styled.img`
   margin-right: ${props => props.sp};
   width: ${props => props.w};
   height: ${props => props.h};
-  filter: invert(40%) sepia(25%) saturate(628%) hue-rotate(187deg) brightness(75%) contrast(84%);
+  filter: invert(40%) sepia(25%) saturate(628%) hue-rotate(187deg) brightness(70%) contrast(84%);
 `;
 
 const Platforms = () => {
