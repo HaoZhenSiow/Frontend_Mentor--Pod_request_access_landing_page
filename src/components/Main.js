@@ -32,6 +32,8 @@ const MainStyled = styled.main`
     line-height: ${fluid.calc(25, 28, 's', 'px')};
     color: var(--color5);
     order: 2;
+    margin-top: ${fluid.calc(16, 31, 's', 'px')};
+    margin-bottom: ${fluid.calc(33, 40, 's', 'px')};
   }
 
   @media (min-width: 768px) {
@@ -52,6 +54,8 @@ const MainStyled = styled.main`
       width: 24.72em;
       font-size: 18px;
       line-height: 28px;
+      margin-top: ${fluid.calc(31, 24, 'b', 'px')};
+      margin-bottom: 40px;
     }
   }
 `;

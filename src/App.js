@@ -46,7 +46,7 @@ const Wrapper = styled.div`
       display: block;
       position: absolute;
       top: clamp( 718px,920px + -202px * ((var(--viewport) - 768)/672),920px + -202px * -0.5848214285714286);
-      right: clamp( 506px + -506px * 0.8,506px + -506px * ((var(--viewport) - 768)/672),506px + -506px * -0.5848214285714286);
+      right: clamp( 506px + -506px * 1,506px + -506px * ((var(--viewport) - 768)/672),506px + -506px * -0.5848214285714286);
     }
   }
 
@@ -58,10 +58,14 @@ const Wrapper = styled.div`
 function App() {
   return (
     <Wrapper className='wrapper'>
-      <img src={logoUrl} alt="logo" className='logo'/>
+      <header>
+        <img src={logoUrl} alt="logo" className='logo'/>
+      </header>
       <Main/>
       <BG1/>
-      <img src={PATTERN} alt="background pattern" className='bg-pattern'/>
+      <aside>
+              <img src={PATTERN} alt="background pattern" className='bg-pattern'/>
+      </aside>
     </Wrapper>
     
   );
