@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Frontend_Mentor--Pod_request_access_landing_page/static/css/main.730b7ea4.css",
-    "main.js": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/main.c60d7188.js",
+    "main.js": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/main.85c4a890.js",
     "static/js/787.be73f74f.chunk.js": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/787.be73f74f.chunk.js",
     "static/media/image-host.jpg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/image-host.1be1435679e9d16319ad.jpg",
     "static/media/google-podcasts.svg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/google-podcasts.e91a57f8f2ae7555677a6fc24a2272c7.svg",
@@ -12,11 +12,11 @@
     "index.html": "/Frontend_Mentor--Pod_request_access_landing_page/index.html",
     "static/media/bg-pattern-dots.svg": "/Frontend_Mentor--Pod_request_access_landing_page/static/media/bg-pattern-dots.a2597e7c189c706f735b91fcfeacc326.svg",
     "main.730b7ea4.css.map": "/Frontend_Mentor--Pod_request_access_landing_page/static/css/main.730b7ea4.css.map",
-    "main.c60d7188.js.map": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/main.c60d7188.js.map",
+    "main.85c4a890.js.map": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/main.85c4a890.js.map",
     "787.be73f74f.chunk.js.map": "/Frontend_Mentor--Pod_request_access_landing_page/static/js/787.be73f74f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.730b7ea4.css",
-    "static/js/main.c60d7188.js"
+    "static/js/main.85c4a890.js"
   ]
 }
