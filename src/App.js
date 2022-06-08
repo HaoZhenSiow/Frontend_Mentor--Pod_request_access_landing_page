@@ -58,6 +58,8 @@ const Wrapper = styled.div`
   }
 `;
 
+const Header = styled.header`line-height: 0;`;
+
 function App() {
   return (
     <Wrapper className='wrapper'>
