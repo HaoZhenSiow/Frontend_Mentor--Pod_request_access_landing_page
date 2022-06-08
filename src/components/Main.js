@@ -48,7 +48,7 @@ const MainStyled = styled.main`
 
     h1 {
       font-size: ${fluid.calc(48, 52, 'b', 'px')};
-      line-height: ${fluid.calc(56, 62, 's', 'px')};
+      line-height: ${fluid.calc(56, 62, 'b', 'px')};
     }
 
     p {

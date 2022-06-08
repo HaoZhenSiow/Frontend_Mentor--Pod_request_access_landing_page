@@ -58,12 +58,14 @@ const Wrapper = styled.div`
   }
 `;
 
+const Header = styled.header`line-height: 0;`;
+
 function App() {
   return (
     <Wrapper className='wrapper'>
-      <header>
+      <Header>
         <img src={logoUrl} alt="logo" className='logo'/>
-      </header>
+      </Header>
       <Main/>
       <BG1/>
       <aside>

@@ -21,7 +21,7 @@ const Icon = styled.img`
   margin-right: ${props => props.sp};
   width: ${props => props.w};
   height: ${props => props.h};
-  filter: invert(40%) sepia(25%) saturate(628%) hue-rotate(187deg) brightness(90%) contrast(84%);
+  filter: invert(40%) sepia(25%) saturate(628%) hue-rotate(187deg) brightness(75%) contrast(84%);
 `;
 
 const Platforms = () => {
