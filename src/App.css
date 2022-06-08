@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+/* root font size must be fixed */
+/* scale 1.067, 14px, 320px viewport and 1.2 18px, 1920px viewport */
+/* viewport - viewport, fluid-container-padding - fluid container horizontal padding */
+:root {
+  --color1: #54E6AF;
+  --color2: #121725;
+  --color3: #2C344B;
+  --color4: #5A668A;
+  --color5: #C2CBE5;
+  --color6: #FFFFFF;
+
+  --fluid-lg: clamp(1.2101247690rem, clac(0.8922777225rem + 1.58923523100vw), 2.79936rem);
+  --fluid-h1: clamp(1.1341375530rem, clac(0.8944050633rem + 1.19866244700vw), 2.33280rem);
+  --fluid-h2: clamp(1.0629217930rem, clac(0.8867061512rem + 0.88107820740vw), 1.94400rem);
+  --fluid-h3: clamp(0.9961778750rem, clac(0.8714134500rem + 0.62382212500vw), 1.62000rem);
+  --fluid-h4: clamp(0.9336250000rem, clac(0.8503500000rem + 0.41637500000vw), 1.35000rem);
+  --fluid-h5: clamp(0.8750000000rem, clac(0.8250000000rem + 0.25000000000vw), 1.12500rem);
+  --fluid-h6: clamp(0.8200562324rem, clac(0.7965674789rem + 0.11744376760vw), 0.93750rem);
+  --fluid-sm: clamp(0.7685625421rem, clac(0.7660250505rem + 0.01268745789vw), 0.78125rem);
+  --fluid-line-height: calc(1.8em - .4 * ((100vw - 29.08324552em) / (77.58342115)));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* to prevent font-size looping use :not()*/
+*:not(html, small, blockquote *)  {
+  font-size: var(--fluid-h5);
+}
+h1 {font-size: var(--fluid-h1);}
+h2 {font-size: var(--fluid-h2);}
+h3 {font-size: var(--fluid-h3);}
+h4 {font-size: var(--fluid-h4);} 
+/* h5 is alread set to var(--heading-5)*/
+h6 {font-size: var(--fluid-h6);} 
+p {line-height: var(--fluid-line-height);}
+
+@media (max-width: 414px){
+p {line-height: 1.8em;} 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (min-width: 1920px){
+p {line-height: 1.4em;} 
 }
