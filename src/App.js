@@ -18,6 +18,7 @@ const Wrapper = styled.div`
   background-position: top right -241px;
   display: flex;
   padding: 0 ${fluid.calc(24, 39, 's', 'px')};
+  padding-bottom: ${fluid.calc(94, 257, 'b', 'px')};
   flex-direction: column;
   align-items: center;
 
@@ -36,6 +37,7 @@ const Wrapper = styled.div`
 
   @media (min-width: 768px) {
     background-image: none;
+    padding-bottom: ${fluid.calc(257, 130, 'b', 'px')};
     padding-right: 0;
     padding-left: ${fluid.calc(39, 165, 'b', 'px')};
     display: block;
@@ -52,6 +54,7 @@ const Wrapper = styled.div`
 
   @media (min-width: 1440px) {
     padding: ${fluid.container(24, 165, 24)};
+    padding-bottom: ${fluid.calc(257, 130, 'b', 'px')};
   }
 `;
 

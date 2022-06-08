@@ -14,6 +14,7 @@ const MainStyled = styled.main`
   position: relative;
   z-index: 2;
 
+
   h1 {
     font-weight: 300;
     font-size: ${fluid.calc(26, 48, 's', 'px')};

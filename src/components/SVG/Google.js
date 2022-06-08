@@ -1,8 +1,17 @@
 import React from "react";
 
+import styled from "styled-components";
+
+const SVG = styled.svg`
+  margin: 0;
+  margin-right: ${props => props.sp};
+  width: ${props => props.w};
+  height: ${props => props.h};
+`;
+
 function Icon() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="125" height="18">
+    <SVG xmlns="http://www.w3.org/2000/svg" width="125" height="18">
       <defs>
         <filter id="a">
           <feColorMatrix
@@ -168,7 +177,7 @@ function Icon() {
           ></path>
         </g>
       </g>
-    </svg>
+    </SVG>
   );
 }
 
